@@ -1,0 +1,24 @@
+{
+  "name": "quickfix",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/edwinmongare/quickfix_frontend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "hompage": "https://edwinmongare/github.io/quickfix_frontend",
+  "bugs": {
+    "url": "https://github.com/edwinmongare/quickfix_frontend/issues"
+  },
+  "homepage": "https://github.com/edwinmongare/quickfix_frontend#readme",
+  "dependencies": {
+    "gh-pages": "^2.1.1"
+  }
+}
