@@ -2,6 +2,13 @@
 /* ==============
   General
 ===================*/
+
+
+/* Invoive css */
+
+
+
+/* end of invoice html */
 body {
   background-repeat: repeat;
   background: #f9f9f9;
@@ -3462,14 +3469,14 @@ table.focus-on tbody tr.focused td {
 }
 
 @media print {
-  body * {
+  body * , #dontprint{
     visibility: hidden;
   }
-  #section-to-print,
-  #section-to-print * {
+  #printthisonly,
+  #printthisonly * {
     visibility: visible;
   }
-  #section-to-print {
+  #printthisonly {
     position: absolute;
     left: 100px;
     top: 80px;

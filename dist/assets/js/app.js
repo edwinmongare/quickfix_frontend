@@ -1,10 +1,3 @@
-/*
- Template Name: Stexo - Responsive Bootstrap 4 Admin Dashboard
- Author: Themesdesign
- Website: www.themesdesign.in
- File: Main js
- */
-
 function showDiv() {
   document.getElementById("printbill").style.display = "block";
 }
